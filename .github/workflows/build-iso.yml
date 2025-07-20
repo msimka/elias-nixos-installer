@@ -78,5 +78,5 @@ jobs:
           2. Boot your target machine from the USB
           3. Follow the Mission Briefing instructions displayed on boot
           
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
